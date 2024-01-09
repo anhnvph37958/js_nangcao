@@ -1,27 +1,27 @@
-let  x;
+let x;
 
-// const arr = [29,38,47,100];
+const arr = [28, 48, 58, 69, 209];
+// push đẩy 1 giá trị vào cuối mag
+arr.push(190);
+// pop :bỏ giá trị cuối cùng
+arr.pop();
 
-// arr.push(100);
+//them giá trị vào đầu mảng
+arr.unshift(99);
+// xóa giá trị đầu
+arr.shift();
+// dao ngược mảng
+arr.reverse();
+// kiểm tra mảng có tồn tại giá trị này không
+x = arr.includes(455);
+//   indexOf() kiểm tra vi trí phần tử trong mảng
+x = arr.indexOf(28)
+// trả về 1 chuỗi
+x = arr.join();
+x = arr.toString();
+// 
+x = arr.slice(1,4);
+x = arr.splice(1,4)
 
-// const obj1 = {a: 1,b: 3};
-// const obj2 = {c: 4, d:5};
-
-// const obj3 = {...obj1,...obj2};
-
-// console.log(obj3)
-// const newObj = {...person};
-
-const fruit = ['apple','lemon','banana'];
-const color = ['blue','red','brown'];
-
-x = fruit[2];
-
-fruits.push(color);
-x = arr.flat();
+x = arr.slice(1,4).reverse().toString().charAt(0);
 console.log(x);
-x = fruit[1][2];
-
-const newObj = {...fruit,...color};
-
-console.log(newObj);
